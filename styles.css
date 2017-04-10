@@ -1,3 +1,85 @@
+body {
+	font: 16px 'Rokkitt', serif;
+	background-color: #1f0530;
+	margin: 0px;
+}
+
+article {
+	width: 960px;
+	background-color: #f4eff1;
+	margin: 0px auto;
+}
+
+div.content {
+	padding: 40px 75px 50px 75px;
+}
+
+h1, h2 {
+	font-family: 'Arsenal', sans-serif;
+	color: #550e84;
+	margin: 0px;
+	text-shadow: 1px 1px black;
+}
+
 h1 {
-  
+	font-size: 40px;
+}
+
+h1 span#lname {
+	text-transform: uppercase;
+}
+
+h2 {
+	border-bottom: 1px solid #550e84;
+}
+
+h3 {
+	margin-bottom: 5px;
+}
+
+.contact-info {
+	list-style-type: none;
+	padding-left: 0;
+	font-style: italic;
+	margin-top: 5px;
+	text-align: right;
+}
+
+.purple {
+	color: #550e84;
+}
+
+.experience {
+	padding-left: 25px;
+}
+
+.experience ul {
+	margin-top: 0px;
+}
+
+#uline {
+	border: 5px solid #550e84;
+	border-radius: 5px;
+	box-shadow: 2px 2px black;
+}
+
+.history {
+	display: flex;
+	justify-content: space-between;
+}
+
+.history > p {
+	margin-bottom: 0px;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.right {
+	text-align: right;
+}
+
+.education {
+	margin-top: 0px;
 }
